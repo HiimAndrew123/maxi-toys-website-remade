@@ -1,0 +1,65 @@
+h1, p {
+    text-align: center;
+  }
+  h1 {
+    animation-name: Fade; /* we search for the "fade" animation and apply to the element*/
+    animation-duration: 3s; /* same as below */
+  }
+  #splash {
+    animation-name: Spin; /* we search for the "spin" animation and apply to the element*/
+    animation-duration: 3s; /* the animation duration */
+  }
+  @keyframes Fade { /* kind of a keyframe system but on css */
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  } 
+  @keyframes Spin {  /* same as above */
+    from {
+      opacity: 0%;
+      transform: rotate(360deg) scale(0%);
+    }
+    to {
+      opacity: 100%;
+      transform: rotate(0deg) scale(100%);
+    }
+  } 
+  body {
+    background: #00FF00;  
+background: -webkit-linear-gradient(to right, #00FF00);  
+background: linear-gradient(to right, #00FF00); /* if you modify the colors, make sure to modify the colors also to line 32, and the second color to "background" */
+
+    font-family: 'Oxygen', sans-serif; /* the font for the website, if you want to modify it then go to google fonts and add it to your list and import the HTML code into index.html and import the CSS code into here */
+  }
+
+
+
+  button { /* style the element "button" */ /* idk how to explain it but if you want you can look up some of these on google */
+    background-color: #008000;
+    font-family: 'Oxygen', sans-serif;
+    border-radius: 90px;
+    border-color: rgb(145, 145, 145);
+    width: 100px; 
+    margin: 0 auto;
+    display: block;
+  }
+
+  #socialnetworks { /* style the id "socialnetworks" */
+    transform: scale(200%)  rotate(0.01turn); /* scale it from 200% and rotate it 0.01 turn  */
+    background-color: #7CFC00;
+    animation-name: socialnetworkanimation; /* we search for the animation called "socialnetworkanimation" */
+    animation-duration: 3s; /* animation duration */
+  }
+
+  @keyframes socialnetworkanimation { /* socialnetworkanimation animation. from is 0% and to is 100% (how many time has passed since 3s) */
+    from {
+      transform: scale(0); 
+    }
+    to {
+      transform: scale(2)  rotate(0.01turn);
+    }
+  }
+
