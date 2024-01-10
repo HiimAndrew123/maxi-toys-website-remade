@@ -28,6 +28,7 @@ h1, p {
     }
   } 
   body {
+	  overflow-x: hidden;
     background: #00FF00;  
 background: -webkit-linear-gradient(to right, #00FF00);  
 background: linear-gradient(to right, #00FF00); /* if you modify the colors, make sure to modify the colors also to line 32, and the second color to "background" */
