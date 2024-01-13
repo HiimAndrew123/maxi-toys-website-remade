@@ -1,4 +1,4 @@
-var = Math.floor(Math.random()*2) // x is to randomize the text
+var x = Math.floor(Math.random()*2) // x is to randomize the text
 var textarray = [ // modify this if you want
   "Made with Maxi Toys's help!!",
 ]
