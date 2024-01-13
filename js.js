@@ -1,7 +1,6 @@
-var x = Math.floor(Math.random()*2) // x is to randomize the text
+var = Math.floor(Math.random()*2) // x is to randomize the text
 var textarray = [ // modify this if you want
   "Made with Maxi Toys's help!!",
-  "see that scrolling bar at the bottom? thats just a bug and idk if i can fix it :/",
 ]
 document.getElementById("splash").innerHTML = textarray[x]; // "innerHTML" is to modify the text and "getElementById("splash")" is to get the element with id "splash"document.getElementById("splash").innerHTML = textarray[x]; // "innerHTML" is to modify the text and "getElementById("splash")" is to get the element with id "splash"
 function channelredirect() {
